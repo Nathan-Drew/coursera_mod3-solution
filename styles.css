@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background: grey;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	color: black;
+	text-decoration: none;
+}
+
+#collapsable-nav {
+	clear: both;
+	text-align: center;
+	background: #cccccc;
+}
+
+#nav-list a {
+	background: #f9f9f9;
+	margin: 5px 8px;
+	color: black;
+	border-radius: 2px;
+}
+
+.navbar-default button.navbar-toggle, .icon-bar {
+	border: 1px solid black;
+}
+
+.content-box {
+	background-color: grey;
+	padding: 0.5% 5%;
+	margin: 2%;
+}
+
+.content-box a {
+	color: black;
+}
